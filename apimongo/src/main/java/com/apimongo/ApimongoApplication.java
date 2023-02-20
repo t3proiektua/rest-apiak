@@ -1,13 +1,13 @@
-package t3.mongorest;
+package com.apimongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MongorestApplication {
+public class ApimongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MongorestApplication.class, args);
+		SpringApplication.run(ApimongoApplication.class, args);
 	}
 
 }
